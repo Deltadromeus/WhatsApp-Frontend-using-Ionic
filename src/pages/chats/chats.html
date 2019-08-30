@@ -1,0 +1,63 @@
+<!--
+  Generated template for the ChatsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar color="whatsapp">
+        <ion-title>WhatsApp</ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only color="royal">
+        <ion-icon name="search"></ion-icon>
+      </button>
+            <button ion-button icon-only color="royal" (click)="presentPopover($event)">
+        <ion-icon name="more"></ion-icon>
+      </button>
+        </ion-buttons>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <ion-list>
+        <ion-item>
+            <ion-avatar item-start (click)="showProfile()">
+                <img src="../../assets/imgs/status5.jpg">
+            </ion-avatar>
+            <h2 (click)="texts()">Lily</h2>
+            <p (click)="texts()">Hi !! How are you ??</p>
+            <ion-note item-end style="font-size: 13px">5:01 pm</ion-note>
+        </ion-item>
+
+        <ion-item>
+            <ion-avatar item-start (click)="showProfile()">
+                <img src="../../assets/imgs/status3.jpg">
+            </ion-avatar>
+            <h2>Tom</h2>
+            <ion-note item-end style="font-size: 13px">7:55 pm</ion-note>
+            <p>i am busy now, doing a project TTYL</p>
+        </ion-item>
+
+        <ion-item>
+            <ion-avatar item-start (click)="showProfile()">
+                <img src="../../assets/imgs/status2.jpg">
+            </ion-avatar>
+            <h2>Reemus</h2>
+            <p>r u busy, i have a doubt help me !!!</p>
+            <ion-note item-end style="font-size: 13px">2:40 am</ion-note>
+        </ion-item>
+    </ion-list>
+
+
+
+    <ion-fab right bottom style="padding-right: 20px ; padding-bottom: 20px">
+        <button ion-fab color="wapp-light" (click)="contacts()">
+      <ion-icon name="md-text"></ion-icon>
+    </button>
+    </ion-fab>
+
+
+</ion-content>

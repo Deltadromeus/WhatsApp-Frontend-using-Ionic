@@ -1,0 +1,144 @@
+<!--
+  Generated template for the StatusPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+    <ion-navbar color="whatsapp">
+        <ion-title>WhatsApp</ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only color="royal">
+      <ion-icon name="search"></ion-icon>
+    </button>
+            <button ion-button icon-only color="royal" (click)="presentPopover($event)">
+      <ion-icon name="more"></ion-icon>
+    </button>
+        </ion-buttons>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+
+    <ion-item-group>
+        <ion-item>
+            <ion-avatar item-start>
+                <img src="../../assets/imgs/mystatus.jpg">
+            </ion-avatar>
+            <h2>My status</h2>
+            <p>Tap to add status updates</p>
+        </ion-item>
+
+        <ion-item-divider color="statuslight">Recent updates</ion-item-divider>
+
+
+        <ion-item>
+            <ion-avatar item-start>
+                <img src="../../assets/imgs/status1.jpg">
+            </ion-avatar>
+            <h2>Saundarya</h2>
+            <p>Just now</p>
+        </ion-item>
+
+        <ion-item>
+            <ion-avatar item-start>
+                <img src="../../assets/imgs/status2.jpg">
+            </ion-avatar>
+            <h2>Reemus</h2>
+            <p>14 minutes ago</p>
+        </ion-item>
+
+        <ion-item>
+            <ion-avatar item-start>
+                <img src="../../assets/imgs/status3.jpg">
+            </ion-avatar>
+            <h2>Tom</h2>
+            <p>Today, 4:08 PM</p>
+        </ion-item>
+
+        <ion-item>
+            <ion-avatar item-start>
+                <img src="../../assets/imgs/status4.jpg">
+            </ion-avatar>
+            <h2>Harry</h2>
+            <p>Today, 2:45 AM</p>
+        </ion-item>
+
+        <ion-item>
+            <ion-avatar item-start>
+                <img src="../../assets/imgs/status5.jpg">
+            </ion-avatar>
+            <h2>Lily</h2>
+            <p>Yesterday, 11:58 PM</p>
+        </ion-item>
+
+        <ion-item>
+            <ion-avatar item-start>
+                <img src="../../assets/imgs/mystatus.jpg">
+            </ion-avatar>
+            <h2>My status</h2>
+            <p>Tap to add status updates</p>
+        </ion-item>
+
+        <ion-item-divider color="statuslight">Viewed updates</ion-item-divider>
+
+
+        <ion-item>
+            <ion-avatar item-start>
+                <img src="../../assets/imgs/status1.jpg">
+            </ion-avatar>
+            <h2>Saundarya</h2>
+            <p>Just now</p>
+        </ion-item>
+
+        <ion-item>
+            <ion-avatar item-start>
+                <img src="../../assets/imgs/status2.jpg">
+            </ion-avatar>
+            <h2>Reemus</h2>
+            <p>14 minutes ago</p>
+        </ion-item>
+
+        <ion-item>
+            <ion-avatar item-start>
+                <img src="../../assets/imgs/status3.jpg">
+            </ion-avatar>
+            <h2>Tom</h2>
+            <p>Today, 4:08 PM</p>
+        </ion-item>
+
+        <ion-item>
+            <ion-avatar item-start>
+                <img src="../../assets/imgs/status4.jpg">
+            </ion-avatar>
+            <h2>Harry</h2>
+            <p>Today, 2:45 AM</p>
+        </ion-item>
+
+        <ion-item>
+            <ion-avatar item-start>
+                <img src="../../assets/imgs/status5.jpg">
+            </ion-avatar>
+            <h2>Lily</h2>
+            <p>Yesterday, 11:58 PM</p>
+        </ion-item>
+
+
+    </ion-item-group>
+
+    <ion-fab right bottom style="padding-right: 20px ; padding-bottom: 80px">
+        <button ion-fab mini color="light">
+            <ion-icon name="brush"  ></ion-icon>    
+      </button>
+    </ion-fab>
+
+    <ion-fab right bottom style="padding-right: 20px ; padding-bottom: 20px">
+        <button ion-fab full (click)="openCamera()" color="wapp-light">
+        <ion-icon name="md-camera" ></ion-icon>
+      </button>
+    </ion-fab>
+
+</ion-content>
